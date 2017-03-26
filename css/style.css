@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
 @font-face{
 	font-family: 'Gabriola';
 	src: url('Gabriola.ttf');
@@ -5,10 +7,11 @@
 
 body{
 	margin: 0px;
+  background-color: #EFF8E2
 }
 
 .logo-signorita{
-	padding: 0;
+	padding: 30px;
 	margin: 0;
 	display: inline-block;
 	color: black;
@@ -38,7 +41,6 @@ body{
 
 .banner{
 	background-image: url('../splash.jpg');
-
 	background-size: cover;
 	height: 700px;
 	display: flex;
@@ -52,15 +54,44 @@ body{
 	justify-content: center;
 }
 
-.container-conteudo{
-}
-
 .fb-button{
 	background-color: #3b5998;
 	color: white;
 }
 
+.instagram{
+  padding: 20px;
+}
+
 .insta-button{
 	background-color: #cd486b;
 	color: white;
+}
+
+.what-we-do{
+  padding: 30px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+}
+
+.address{
+  padding: 0px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 40%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
