@@ -79,7 +79,11 @@ body{
   padding: 0px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .google-maps {
@@ -90,8 +94,11 @@ body{
 }
 .google-maps iframe {
     position: absolute;
-    top: 0;
+    top: 0px;
+    padding: 20px;
+    bottom: 30px;
     left: 0;
     width: 100% !important;
     height: 100% !important;
 }
+
