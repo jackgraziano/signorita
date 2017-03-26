@@ -1,0 +1,66 @@
+@font-face{
+	font-family: 'Gabriola';
+	src: url('Gabriola.ttf');
+}
+
+body{
+	margin: 0px;
+}
+
+.logo-signorita{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	color: black;
+	opacity: 1;
+}
+
+.signorita{
+	font-family: 'Gabriola';
+	font-size: 140px;
+	font-weight: lighter;
+	-moz-font-feature-settings: "ss07";
+    -webkit-font-feature-settings: "ss07";
+    font-feature-settings: "ss07";
+    margin: 0;
+    text-align: right;
+}
+
+.moda-festa{
+	font-family: 'Gabriola';
+	font-size: 40px;
+	font-weight: lighter;
+	margin: 0;
+	text-align: right;
+	position: relative;
+	top: -40px
+}
+
+.banner{
+	background-image: url('../splash.jpg');
+
+	background-size: cover;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-conteudo{
+}
+
+.fb-button{
+	background-color: #3b5998;
+	color: white;
+}
+
+.insta-button{
+	background-color: #cd486b;
+	color: white;
+}
