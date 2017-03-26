@@ -42,7 +42,7 @@ body{
 .banner{
 	background-image: url('../splash.jpg');
 	background-size: cover;
-	height: 700px;
+	height: 600px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -69,7 +69,7 @@ body{
 }
 
 .what-we-do{
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 50px;
@@ -102,3 +102,9 @@ body{
     height: 100% !important;
 }
 
+.come-and-meet-us{
+  padding: 0px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
