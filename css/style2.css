@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+.background .subtitle {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255,255,255,0.6);
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.background .city {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255,255,255,0.6);
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+
+.background .follow-us{
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255,255,255,0.6);
+  font-weight: 300;
+}
+
+.background {
+  background: linear-gradient(-130deg, rgba(100,100,200,0.6) 10%, rgba(100,100,200,0.3)), url('../background_dress.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background #instagram{
+  margin-right: 10px;
+}
+
+.background #facebook{
+  margin-left: 10px;
+}
+
+.background i{
+  font-size: 40px;
+}
+
+.background .button{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 0;
+  border-radius: 40px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.background .button:hover{
+  color: white;
+  opacity: 1.0;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.background h3{
+  margin: 40px;
+}
+
+
+@font-face{
+  font-family: 'Gabriola';
+  src: url('Gabriola.ttf');
+}
+
+.logo-signorita{
+  padding: 30px;
+  margin: 0;
+  display: inline-block;
+  color: rgba(255,255,255,0.7);
+  opacity: 1;
+}
+
+.signorita{
+  font-family: 'Gabriola';
+  font-size: 140px;
+  font-weight: lighter;
+  -moz-font-feature-settings: "ss07";
+    -webkit-font-feature-settings: "ss07";
+    font-feature-settings: "ss07";
+    margin: 0;
+    text-align: right;
+}
+
+.moda-festa{
+  font-family: 'Gabriola';
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0;
+  text-align: right;
+  position: relative;
+  top: -40px
+}
