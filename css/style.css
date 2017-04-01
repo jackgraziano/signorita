@@ -12,11 +12,13 @@
   display: inline-block;
   color: rgba(255,255,255,0.7);
   opacity: 1;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 .signorita{
   font-family: 'Gabriola';
-  font-size: 140px;
+  font-size: 18vw;
   font-weight: lighter;
   -moz-font-feature-settings: "ss07";
     -webkit-font-feature-settings: "ss07";
@@ -27,10 +29,11 @@
 
 .moda-festa{
   font-family: 'Gabriola';
-  font-size: 40px;
+  font-size: 5vw;
   font-weight: lighter;
   margin: 0;
   text-align: right;
-  position: relative;
-  top: -40px
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
