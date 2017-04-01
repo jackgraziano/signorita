@@ -19,11 +19,11 @@
   height: 200px;
 }
 
-.features h3, h2{
+.features h3{
   font-family: 'Raleway', sans-serif;
   color: rgba(80,80,80, 0.8);
   font-weight: 300;
-  font-size: 25px;
+  font-size: 27px;
   margin: 0;
   padding: 0;
 }
