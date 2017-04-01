@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -706,3 +707,7 @@
   </body>
 </html>
 
+=======
+# signorita
+a landing page that can be seen at https://jackgraziano.github.io/signorita
+>>>>>>> bc7d0b840d04eb5b0d36cf175940645c65c550cb
