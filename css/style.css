@@ -7,6 +7,10 @@
   src: url('Gabriola.ttf');
 }
 
+body{
+  font-size: 62.5%;
+}
+
 .logo-signorita{
   padding: 30px;
   margin: 0;
@@ -17,7 +21,7 @@
 
 .signorita{
   font-family: 'Gabriola';
-  font-size: 15vw;
+  font-size: 12em;
   font-weight: lighter;
   -moz-font-feature-settings: "ss07";
     -webkit-font-feature-settings: "ss07";
