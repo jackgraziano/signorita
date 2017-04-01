@@ -1,15 +1,22 @@
 .features{
   background-color: #FAC8CD;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .feature img{
   height: 120px;
+  margin-top: 20px;
 }
 
 .feature{
   padding-top: 15px;
   padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
 }
 
 .features h3, h2{
@@ -17,6 +24,8 @@
   color: rgba(80,80,80, 0.8);
   font-weight: 300;
   font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
 
 .features h2{
@@ -24,4 +33,8 @@
   font-family: 'Raleway', sans-serif;
   color: rgba(80,80,80, 0.8);
   font-weight: 300;
+}
+
+#curto{
+  height: 80px;
 }
