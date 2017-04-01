@@ -14,6 +14,7 @@
   color: rgba(255,255,255,0.6);
   font-weight: 300;
   font-size: 30px;
+  margin-top: 10px;
 }
 
 .banner .city {
@@ -29,7 +30,7 @@
   font-family: 'Raleway', sans-serif;
   color: rgba(255,255,255,0.6);
   font-weight: 300;
-  margin: 40px;
+  margin: 20px;
 }
 
 .banner #instagram{
