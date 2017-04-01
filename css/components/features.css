@@ -1,0 +1,27 @@
+.features{
+  background-color: #FAC8CD;
+  padding-top: 80px;
+}
+
+.feature img{
+  height: 120px;
+}
+
+.feature{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.features h3, h2{
+  font-family: 'Raleway', sans-serif;
+  color: rgba(80,80,80, 0.8);
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.features h2{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(80,80,80, 0.8);
+  font-weight: 300;
+}

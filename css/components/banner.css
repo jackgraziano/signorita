@@ -1,5 +1,5 @@
 .banner {
-  background: linear-gradient(-130deg, rgba(100,100,200,0.6) 10%, rgba(100,100,200,0.3)), url('../../background_dress.jpg');
+  background: linear-gradient(-130deg, rgba(100,100,200,0.6) 10%, rgba(100,100,200,0.3)), url('../../images/background_dress.jpg');
   background-size: cover;
   height: 100vh;
   display: flex;
