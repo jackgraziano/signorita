@@ -3,3 +3,17 @@
 @import url('components/banner.css');
 @import url('components/logo.css');
 @import url('components/features.css');
+
+.instagram{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: rgba(230,230,230,1)
+}
+
+.instagram h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: rgba(80,80,80,0.9);
+  font-weight: 300;
+  padding-bottom: 30px;
+}
